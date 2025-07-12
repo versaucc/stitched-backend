@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 
 from fastapi import FastAPI, Request, Header, HTTPException
 from fastapi.responses import JSONResponse
-from supabase import create_client, Client as SupaClient
+from supabase_py import create_client, Client as SupaClient
 
 # ------------------------------------------------------------------ #
 # 1 ▸  Globals / singletons                                          #
